@@ -1,0 +1,267 @@
+
+	body{
+
+		background-image: url("images/yellow_background.png");}
+
+
+		@font-face{
+			src:url(fonts/ballpark.woff) format("woff");
+			font-family: ballpark;
+			font-weight: normal;
+		}
+		@font-face{
+			src:url(fonts/dayrom.woff) format("woff");
+			font-family:dayrom;
+		}
+
+	.wrapper{ 
+				width: 965px;
+				margin: auto;}
+
+	.logo{  width: 65px;}
+		
+	.h1{	font-size: 45px;
+			font-weight:100;
+			display: inline;
+			font-family: ballpark;}	
+
+	.h2{	font-family: dayrom;
+		    font-size: 19px;
+		    margin-top: 1px;
+		    font-weight: normal;}				
+					 			 
+	/* .text{	margin-top: 4px;
+						font-size: 20px;} */			
+
+	/* ul{	padding: 30px 0px 0px 358px;}
+	
+	ul li {	list-style: none;}
+	
+	ul li a{	padding: 5px;
+	    		letter-spacing: 2px;
+				text-decoration: none;
+				font-size: 25px;
+				color: black;
+					} */
+.nav{	font-size: 20px;
+		font-family: dayrom;
+		margin-top: 36px;
+		margin-left: 390px;
+		word-spacing: 16px;}
+
+		ul{	list-style: none;}
+			
+ul li a{	color: black;
+			text-decoration: none;}
+
+
+	.line	{	height: 3px; 
+				width: 100%;}			
+
+
+	.banner	 {	width: 100%;
+				position: relative;
+				margin-top: -20px;}
+
+	.bridge{ 	box-shadow: 0px 2px 6px 0px #222224;
+				position: relative;
+				margin-top: 13px;
+				border-radius: 5px;
+				width: 100%;
+				height: 225px;
+			 }
+
+	.shadow{	position: absolute;
+				width: 100%;
+				height: 57px;
+				bottom: 4px;
+				background-color: #211f1fcc;
+				color: white;
+    			border-radius: 0px 0px 5px 5px;}
+
+				
+.shadowtext	{	margin: 20px 5px;
+		
+					
+					}
+	.button{	    
+				
+				padding: 6px 8px 6px 8px;
+				position: absolute;
+				right: 5px;
+				bottom: 7px;
+				border-radius: 	4px;
+				background-color: #a93f40;
+				border: 0px;
+				font-size: 16px;
+				text-align: left;
+				color: white;
+				box-shadow: 0px 0px 8px 0px #4e0000;
+				}	
+
+.pinlogo{		width: 48px;	margin-top: 45px; float: left;}
+
+
+h3{	   			text-indent: 0.25cm;
+			    margin-top: 57px;
+			    float: left;
+			    font-size: 18px;
+				font-family: dayrom;
+				font-weight: normal;}
+.myp{			 margin-top: 119px;
+			    line-height: 15px;
+			    width: 669px; }		
+
+.article{		width: 70%;
+				float: left;}
+
+.section{		line-height: 15px;
+ 		  		height: 325px;
+				font-size: 14px;
+			    text-align: justify;
+			    width: 680px;
+			    position: relative;
+			    font-family: Trebuchet MS;
+				margin-top: 113px}
+	}
+
+
+			    
+
+.p3{			word-spacing: 1px;}
+
+		/* Author section  */
+
+aside{			float: right;
+				margin-top: 18px;
+				height: 420px;
+				width: 252px;
+				border-radius:4px;
+				box-shadow: 0px 1px 4px 1px #706b64;
+				background-color: rgb(112,  107,  100);}
+	/* About Author */
+
+
+
+.authortext{	font-family: dayrom;
+				color: white;
+				margin-top:27px; 
+				font-size: 17px;
+				text-indent: 0.30cm}
+	/* side arrow section */
+
+.arrow{			float: right;
+				margin-top: 130px;}
+.arrowimg{		width: 13px;}
+
+		
+		/* Author image section */
+
+.authorimage{	width: 132px;
+				height: 115px;
+				margin: 20px 0px 0px 60px;
+				box-shadow: 0px 0px 0px 1px;}
+
+
+		/* 	Author paragraph section */
+	.authorp{	text-align: justify;
+				color: white;
+				margin:20px 12px;
+				font-size: 13px;
+    			word-spacing: 1px;	
+    			font-family: Trebuchet MS}
+
+
+	.links{		    margin: 0px 12px;
+				    
+}
+				}
+
+	.linkimg{	width: 46px;
+				}			
+						
+	.top{		text-align: center; }
+
+	.topimg{	height: 35px;
+				width: 60px;
+				margin-top: -8px;
+				}
+
+
+	/* .column{	width: 100%}
+	
+	.col{ 		width: 300px;
+				line-height: 32px;
+				float: left; 
+				  }
+	
+	
+	.col1{		font-size: 22px;
+	    }	
+	   
+	   .col2{	margin-top: 10px;
+	    		word-spacing: -2px;
+	    		}
+	  
+	  .colimg{	border:1px solid black;
+	  			width: 77px;
+	  			float: left;}
+	 
+	  .col3{	 width: 350px}			
+	  
+	 .col4{		margin-right: 30px;}
+	  			} */
+
+footer{	position: relative;
+		float: left;		
+		width: 100%;
+		height: 100%;
+		font-family: dayrom;
+		margin-top: -15px;
+	
+		}
+
+h2{		font-size: 18px; font-weight: 100;}
+
+.tweet{	
+		width: 250px;
+		 }	
+
+h4{	font-family: Trebuchet MS;
+	font-weight: 100;
+	font-size: 12px;}
+
+
+
+.mypictures{ 	position: absolute;
+			    top: 0px;
+			    left: 260px;
+			    width: 300px;}
+.pictures{		border: 1px solid black;}			    			  			
+.footerimages{	word-spacing: -2px;}
+
+
+.myfriends{ 	position: absolute;
+				top: 0px;
+				right: 180px; }
+
+.friends{ width: 200px; 
+		  font-family: Trebuchet MS;
+		  font-size: 12px;}		
+.list1{   width: 200px;
+		  font-family: Trebuchet MS;
+		  font-size: 12px;
+		  margin-left: -40px;
+} 		  		
+/* ul a{	text-decoration: none;}
+ */
+.list1 ul li{
+	list-style-image: url("images/external_link.png");
+}
+.list2{		    position: absolute;
+			    left: 100px;
+			    top: 42px;
+				width: 200px;}
+
+.list2 ul li{	list-style-image: url("images/external_link.png");}
+
